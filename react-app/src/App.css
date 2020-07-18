@@ -1,0 +1,40 @@
+.App {
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    height: 32px;
+  }
+}
+
+.App-header {
+  background: pink;
+  color: darkred;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+img.profile {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
